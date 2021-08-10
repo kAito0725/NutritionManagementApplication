@@ -14,17 +14,17 @@ export default function Header() {
         <Link href="/">{appTitle}</Link>
       </header>
       <p className="absolute mt-4 right-32">
-        <Link href="/Components/Header/aboutContact">Contact</Link>
+        <Link href="/components/header/aboutContact">Contact</Link>
       </p>
       <p className="absolute mt-4 right-72">
-        <Link href="/Components/Header/siteIntroduction">About this site</Link>
+        <Link href="/components/header/siteIntroduction">About this site</Link>
       </p>
       <p className="mt-3 text-center">Categories</p>
       <ul className="flex space-x-5 justify-center">
-        <li><Link href="/Components/Header/aboutNutrients">Nutrients</Link></li>
-        <li><Link href="/Components/Header/aboutMuscle">Muscle</Link></li>
-        <li><Link href="/Components/Header/aboutAntiAging">AntiAging</Link></li>
-        <li><Link href="/Components/Header/aboutHealth">Health</Link></li>
+        <li><Link href="/components/header/aboutNutrients">Nutrients</Link></li>
+        <li><Link href="/components/header/aboutMuscle">Muscle</Link></li>
+        <li><Link href="/components/header/aboutAntiAging">AntiAging</Link></li>
+        <li><Link href="/components/header/aboutHealth">Health</Link></li>
       </ul>
     </>
   )
